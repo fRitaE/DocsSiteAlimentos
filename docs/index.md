@@ -19,13 +19,13 @@ Tornar o site interativo: expandir/colapsar menus, filtrar resultados.
 
 ##Passo a Passo: Como Usar o Site!
 
-* 1. Acessando o Site
+* Acessando o Site
 
 Abra o navegador (Chrome, Firefox, Safari ou Edge).
 Digite o URL do site (ex.: http://localhost:5500/index.html se rodando localmente via Live Server, ou o domínio real quando hospedado).
 A página carrega com o header verde no topo, barra de busca abaixo e lista de cards de alimentos.
 
-* 2. Navegando pela Lista de Alimentos
+* Navegando pela Lista de Alimentos
 
 Visualização Inicial: Os cards aparecem como menus cinzas compactos, mostrando apenas o nome do prato (ex.: "Estrogonofe").
 Expandir um Card:
@@ -43,7 +43,7 @@ Para fechar: Clique novamente no cabeçalho cinza. O ícone de seta (▼) rotaci
 
 Rolagem na Lista: Se houver muitos pratos (ex.: 10+), use o mouse wheel, barra lateral ou toque (mobile) para rolar apenas a seção de alimentos. O header e a busca ficam fixos no topo.
 
-* 3. Usando a Barra de Pesquisa
+* Usando a Barra de Pesquisa
 
 Localização: Logo abaixo do header, um campo branco arredondado com placeholder "Valor (ex: calorias)".
 Como Pesquisar:
@@ -78,6 +78,7 @@ No mobile, o teclado aparece automaticamente ao tocar no campo.
                 header-bg.jpg   # Imagem do cabeçalho (frutas/vegetais).
             icons/
                 dropdown-icon.svg   # Ícone para dropdown
+
 
 
 
