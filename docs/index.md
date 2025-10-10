@@ -1,18 +1,35 @@
-# Welcome to aaaaaa
+# Bem-vindo a Documentação do Site de alimentos!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Visão Geral
 
-## Commands
+Este documento descreve como implementar o protótipo do site de alimentos, que exibe informações nutricionais e históricas de pratos culinários.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Design
+
+Uma barra de pesquisa para "Valor" (ex.: calorias ou outro filtro nutricional).
+Menus dropdown cinzas que expandem para mostrar detalhes do alimento, como nome, origem, valores nutricionais (energia, carboidratos, proteínas, gorduras, sódio) e histórico.
+Um cabeçalho visual com imagens de alimentos frescos (frutas, vegetais).
+
+O site é responsivo, com um layout simples e clean, usando tons de verde (para o tema saudável) e cinza/bege para os elementos interativos. Assumimos uma stack web básica: HTML5, CSS3 e JavaScript vanilla (sem frameworks para simplicidade). Para dados, use um array JSON local.
+Objetivos funcionais:
+
+Permitir busca por alimentos via barra de pesquisa.
+Exibir cards expansíveis (dropdowns) com informações detalhadas.
+Tornar o site interativo: expandir/colapsar menus, filtrar resultados.
 
 ## Project layout
 
     mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    site-alimentos/
+        index.html  # Página principal.
+        styles.css  # Estilos globais.
+        script.js   # Lógica interativa.
+        data/
+            alimentos.json   # Dados dos alimentos (JSON).
+        assets/
+            images/
+                header-bg.jpg   # Imagem do cabeçalho (frutas/vegetais).
+            icons/
+                dropdown-icon.svg   # Ícone para dropdown
+
 
