@@ -8,11 +8,11 @@ Este documento descreve como implementar o protótipo do site de alimentos, que 
 
 Uma barra de pesquisa para "Valor" (ex.: calorias ou outro filtro nutricional).
 Menus dropdown cinzas que expandem para mostrar detalhes do alimento, como nome, origem, valores nutricionais (energia, carboidratos, proteínas, gorduras, sódio) e histórico.
-Um cabeçalho visual com imagens de alimentos frescos (frutas, vegetais).
 
-O site é responsivo, com um layout simples e clean, usando tons de verde (para o tema saudável) e cinza/bege para os elementos interativos. Assumimos uma stack web básica: HTML5, CSS3 e JavaScript vanilla (sem frameworks para simplicidade). Para dados, use um array JSON local.
+
+O site é responsivo, com um layout simples e clean, usando tons de verde (para o tema saudável) e cinza/bege para os elementos interativos. Assumimos uma stack web básica: HTML5, CSS3 e JavaScript vanilla (sem frameworks para simplicidade). Para dados, foi usado um array JSON local.
+
 Objetivos funcionais:
-
 Permitir busca por alimentos via barra de pesquisa.
 Exibir cards expansíveis (dropdowns) com informações detalhadas.
 Tornar o site interativo: expandir/colapsar menus, filtrar resultados.
@@ -28,13 +28,13 @@ A página carrega com o header verde no topo, barra de busca abaixo e lista de c
 * Navegando pela Lista de Alimentos
 
 Visualização Inicial: Os cards aparecem como menus cinzas compactos, mostrando apenas o nome do prato (ex.: "Estrogonofe").
-Expandir um Card:
 
-Clique no cabeçalho cinza do card (o nome do prato).
+Expandir um Card: Clique no cabeçalho cinza do card (o nome do prato).
+
 O card expande suavemente para baixo, revelando:
 
 Imagem do Prato: Foto ilustrativa.
-Nome e Região de Origem: Ex.: "Nome: Estrogonofe | Região: Rússia, Europa, América do Norte, Brasil".
+Nome e Região de Origem: Ex.: "Nome: Estrogonofe | Região: Rússia, Europa".
 Valores Nutricionais: Lista em grade (duas colunas no desktop, uma no mobile)
 
 História: Parágrafo curto sobre a origem (ex.: explicações sobre a família Stroganov).
@@ -75,9 +75,10 @@ No mobile, o teclado aparece automaticamente ao tocar no campo.
             alimentos.json   # Dados dos alimentos (JSON).
         assets/
             images/
-                header-bg.jpg   # Imagem do cabeçalho (frutas/vegetais).
+                image.jpg   # Imagem dos alimentos.
             icons/
-                dropdown-icon.svg   # Ícone para dropdown
+                icon.svg   # Favicon do site.
+
 
 
 
