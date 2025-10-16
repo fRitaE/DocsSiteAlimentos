@@ -18,9 +18,11 @@ Exibir cards expansíveis (dropdowns) com informações detalhadas.
 Tornar o site interativo: expandir/colapsar menus, filtrar resultados.
 
 ##Passo a Passo: Como Usar o Site!
-Pré-requisitos:
+
+* Pré-requisitos:
 
 Editor de código (ex.: VS Code).
+
 Navegador web para testes (Chrome/Firefox).
 
 * Acessando o Site
@@ -82,6 +84,7 @@ No mobile, o teclado aparece automaticamente ao tocar no campo.
                 image.jpg   # Imagem dos alimentos.
             icons/
                 icon.svg   # Favicon do site.
+
 
 
 
